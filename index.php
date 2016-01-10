@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Notes Application</title>
+    <link href="css/sass.css" rel="stylesheet">
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity=
+    "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    rel="stylesheet">
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel=
+    'stylesheet' type='text/css'>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+</head>
+<body>
+    <header>
+        <div class="caption">
+            <h1>Store your ideas,</h1>
+            <h1>on the go</h1>
+            <div class="button" id="toggle-login">
+                <p>Log in</p>
+            </div>
+            <div id="login">
+                <div id="triangle"></div>
+                <h1>Log in <i class=' delete fa fa-times'></i></h1>
+                <form>
+                    <input placeholder="Email" type="email">
+                    <input placeholder="Password" type="password"> <input type=
+                    "submit" value="Log in">
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="text-center app container">
+        <h1>Caputre your thoughts</h1>
+        <p>Login, create, read and delete notes.</p>
+        <div id="container">
+            <ul id="list"></ul>
+            <p><input id="message" placeholder="Type note" type=
+            "text"></p><a href='#'>
+            <div class="button" id="addItem">
+                Add note
+            </div></a>
+        </div>
+        <div id="saved">
+            <h1>Important notes</h1>
+        </div>
+    </div>
+    <div class="box-bg">
+        <div class="box">
+            <i class=' delete fa fa-times'></i>
+            <p>Please, type a note into the box and press add note.</p>
+        </div>
+    </div>
+    <script src="js/app.js">
+    </script>
+</body>
+</html>
