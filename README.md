@@ -16,3 +16,5 @@ Login modal created on click of login button.
 The login section displays the fields that would be used to log in, and
 would be linked up to a database to allow users to log in and access
 their notes.
+
+There is a live version of this @ http://harryjbeckwith.co.uk/notes/
