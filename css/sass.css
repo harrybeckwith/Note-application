@@ -257,3 +257,16 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background: #00A753;
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+/* Styles */
+  header .caption h1 {
+    font-size: 39px;
+}
+.box {
+    margin-top: 400px;
+  }
+  .box-bg {
+  height: 300%;
+  }
+}
